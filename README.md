@@ -4,6 +4,8 @@
 
 Build a daily mood tracker where users can log their mood each day and visualize their emotional trends.
 
+![alt text](https://github.com/Abhishekharsh007/Mood_Track/blob/main/imgi.png?raw=true)
+
 ## Scope
 
 - We will do it for one specific local time zone.
