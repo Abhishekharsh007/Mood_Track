@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mood Tracker</title>
+    <title>Mood Track</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <h1>Mood Track</h1>
     
+    <div id="mood-buttons">
+        <button class="mood-btn" onclick="setMood('😊')">😊 <div>Happy</div></button>
+        <button class="mood-btn" onclick="setMood('😢')">😢 <div>Sad</div></button>
+        <button class="mood-btn" onclick="setMood('😐')">😐 <div>Neutral</div></button>
+        <button class="mood-btn" onclick="setMood('🤩')">🤩 <div>Excited</div></button>
+        <button class="mood-btn" onclick="setMood('😡')">😡 <div>Angry</div></button>
+    </div>
+
+    <h2 id="tiime"> </h2>
+    <div class="calendar" id="calendar"></div>
+    <script src="index.js"></script>
 </body>
 </html>
+
+
+       
